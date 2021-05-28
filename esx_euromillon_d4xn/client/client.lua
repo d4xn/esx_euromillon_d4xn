@@ -18,7 +18,7 @@ Citizen.CreateThread(function()
         local _char = PlayerPedId()
         local _charPos = GetEntityCoords(_char)
         local _sleep = 1000
-        if #(_charPos - vector3(219.80, -859.85, 29.20)) < 3 then
+        if #(_charPos - vector3(219.80, -859.85, 29.20)) < 3 and not IsPedSwimming(_char) and not IsEntityDead(_char) then
             _sleep = 0
             DrawText3D(219.80, -859.85, 31.25, 'Pulsa ~r~[E]~w~ para comprar un boleto por ~g~12$~s~')
             if IsControlJustPressed(0, 38) then 
