@@ -1,8 +1,8 @@
 # esx_euromillon_d4xn
 
-A simple lottery FiveM script. \
+A simple lottery FiveM script. 
 
-Add this to esx_basicneeds/server/main.lua \
+Add this to esx_basicneeds/server/main.lua 
 
 ```lua
 ESX.RegisterUsableItem('boleto_euromillon', function(source)
