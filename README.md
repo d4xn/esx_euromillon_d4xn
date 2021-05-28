@@ -17,11 +17,11 @@ ESX.RegisterUsableItem('boleto_euromillon', function(source)
     xPlayer.removeInventoryItem('boleto_euromillon', 1)
 
     if winner == number then
-		TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '1,000,000$ Te ha tocado el gordo!'})
+	TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '1,000,000$ Te ha tocado el gordo!'})
         xPlayer.addMoney(1000000) -- 100,000 if is the same number
 
     elseif luck == 100 then
-		TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '10,000$ Te ha tocado el segundo premio!'})
+	TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '10,000$ Te ha tocado el segundo premio!'})
         xPlayer.addMoney(10000)
 
     else
@@ -29,22 +29,22 @@ ESX.RegisterUsableItem('boleto_euromillon', function(source)
             if luck >= 50 then
                 if luck >= 75 then
                     if luck >= 90 then
-						TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '250$ Te ha tocado el tercer premio!'})
+			TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '250$ Te ha tocado el tercer premio!'})
                         xPlayer.addMoney(250)
                     else
-						TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '50$ Te ha tocado el cuarto premio!'})
+			TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '50$ Te ha tocado el cuarto premio!'})
                         xPlayer.addMoney(50)
                     end
                 else
-					TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '12$ Te has quedado igual, porque no vuelves a probar suerte...'})
-                    xPlayer.addMoney(12)
+			TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '12$ Te has quedado igual, porque no vuelves a probar suerte...'})
+                    	xPlayer.addMoney(12)
                 end
             else
-				TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = '6$ Has recuperado la mitad!'})
+		TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = '6$ Has recuperado la mitad!'})
                 xPlayer.addMoney(6)
             end
         else
-			TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = 'No te ha tocado nada! :('})
+		TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = 'No te ha tocado nada! :('})
         end
     end
 end)
