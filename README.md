@@ -1,8 +1,10 @@
 # esx_euromillon_d4xn
 
-A simple lottery FiveM script. 
+*A simple lottery FiveM script.*
 
-Add this to esx_basicneeds/server/main.lua:
+**IMPORT EUROMILLON.SQL INTO YOU DB**
+
+**Add this to esx_basicneeds/server/main.lua:**
 
 ```lua
 ESX.RegisterUsableItem('boleto_euromillon', function(source)
@@ -50,6 +52,4 @@ ESX.RegisterUsableItem('boleto_euromillon', function(source)
 end)
 ```
 
-**IMPORT EUROMILLON.SQL INTO YOU DB**
-
-# The End
+# Thanks For Reading
