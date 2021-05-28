@@ -4,7 +4,7 @@
 
 **Requeriments: esx_basicneeds & mythic_notify**
 
-**IMPORT EUROMILLON.SQL INTO YOU DB**
+**IMPORT EUROMILLON.SQL INTO YOUR DB**
 
 **Add this to esx_basicneeds/server/main.lua:**
 
