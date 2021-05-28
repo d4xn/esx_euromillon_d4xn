@@ -13,7 +13,7 @@ AddEventHandler('esx_euromillon_d4xn:darBoletos', function()
     end
     if xPlayer.getMoney() < 12 then
 
-        TriggerClientEvent('esx:showNotification', _source, 'No tienes dinero!')
+        TriggerClientEvent('esx:showNotification', _source, '~r~No ~w~tienes dinero!')
     end
     
 end)
