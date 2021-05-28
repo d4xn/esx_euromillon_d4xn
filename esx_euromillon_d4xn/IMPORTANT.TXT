@@ -24,7 +24,7 @@ ESX.RegisterUsableItem('boleto_euromillon', function(source)
             if luck >= 50 then
                 if luck >= 75 then
                     if luck >= 90 then
-						TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '250$ Te ha tocado el tercer premio!'})
+						TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '150$ Te ha tocado el tercer premio!'})
                         xPlayer.addMoney(150)
                     else
 						TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '50$ Te ha tocado el cuarto premio!'})
