@@ -10,7 +10,6 @@ ESX.RegisterUsableItem('boleto_euromillon', function(source)
     local winner = math.random(0, 100000)
     local number = math.random(0, 100000)
     local luck = math.random(0, 100)
-    --local _source = tonumber(_source)
     local xPlayer = ESX.GetPlayerFromId(source)
 
     xPlayer.removeInventoryItem('boleto_euromillon', 1)
