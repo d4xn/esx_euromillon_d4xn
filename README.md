@@ -18,7 +18,7 @@ ESX.RegisterUsableItem('boleto_euromillon', function(source)
 
     if winner == number then
         TriggerClientEvent('esx:showNotification', source, '~g~1,000,000$ ~w~Te ha tocado el gordo!')
-        xPlayer.addMoney(1000000) -- 100,000 if is the same number
+        xPlayer.addMoney(1000000) --- 1/1000000 possibilities
 
     elseif luck == 100 then
 		TriggerClientEvent('esx:showNotification', source, number-winner)
@@ -52,4 +52,4 @@ ESX.RegisterUsableItem('boleto_euromillon', function(source)
 end)
 ```
 
-# Thanks For Reading
+# Thanks For Reading!
