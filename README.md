@@ -8,7 +8,7 @@
 
 **Add this to esx_basicneeds/server/main.lua:**
 
-**If you speak other language change the notifications, and if you want the percentages**
+**If you speak other language change the notifications, and if you want change the percentages too**
 
 **PERCENTAGES: 25% win 0$ - 25% win 6$ - 30% win 12$ - 15% win 50$ - 5% win 150$ - 1/1,000 win 10,000$ - 1/1,000,000 win 1,000,000$**
 
@@ -30,7 +30,7 @@ ESX.RegisterUsableItem('boleto_euromillon', function(source)
 
     elseif winner2 == number2 then
 		TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '10,000$ Te ha tocado el segundo premio!'})
-        xPlayer.addMoney(10000)
+        xPlayer.addMoney(10000) -- 1/1,000 possibilities
 
     else
         if luck >= 25 then
