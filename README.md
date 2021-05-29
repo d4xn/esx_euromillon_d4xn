@@ -8,6 +8,10 @@
 
 **Add this to esx_basicneeds/server/main.lua:**
 
+**If you speak other language change the notifications, and if you want the percentages**
+
+**PERCENTAGES: 25% win 0$ - 25% win 6$ - 25% win 12$ - 15% win 50$ - 10% win 150$ - 1/1,000 win 10,000$ - 1/1,000,000 win 1,000,000$**
+
 ```lua
 ESX.RegisterUsableItem('boleto_euromillon', function(source)
     math.randomseed(os.time())
