@@ -11,6 +11,7 @@ Citizen.CreateThread(function()
 end)
 
 -- Venta Boleto NPC
+-- Change coordinates if you want | Cambia las coordenadas si quieres
 Citizen.CreateThread(function()
     SpawnNPC('a_f_m_eastsa_01', vector4(219.80, -859.85, 29.20, 340.30)) -- Person (Vendedor/a Euromillon)
     SpawnNPC('a_c_shepherd', vector4(220.50, -860.15, 29.20, 340.30)) -- Dog (comment this line for get lower cost and usage)
