@@ -10,7 +10,7 @@
 
 **If you speak other language change the notifications, and if you want the percentages**
 
-**PERCENTAGES: 25% win 0$ - 25% win 6$ - 25% win 12$ - 15% win 50$ - 10% win 150$ - 1/1,000 win 10,000$ - 1/1,000,000 win 1,000,000$**
+**PERCENTAGES: 25% win 0$ - 25% win 6$ - 30% win 12$ - 15% win 50$ - 5% win 150$ - 1/1,000 win 10,000$ - 1/1,000,000 win 1,000,000$**
 
 ```lua
 ESX.RegisterUsableItem('boleto_euromillon', function(source)
@@ -35,8 +35,8 @@ ESX.RegisterUsableItem('boleto_euromillon', function(source)
     else
         if luck >= 25 then
             if luck >= 50 then
-                if luck >= 75 then
-                    if luck >= 90 then
+                if luck >= 80 then
+                    if luck >= 95 then
 						TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = '150$ Te ha tocado el tercer premio!'})
                         xPlayer.addMoney(150)
                     else
