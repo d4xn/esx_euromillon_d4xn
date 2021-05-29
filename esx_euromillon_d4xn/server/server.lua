@@ -2,7 +2,7 @@ ESX								= nil
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 -- Compra de boletos
-RegisterServerEvent('esx_euromillon_d4xn:darBoletos_d4xn')
+RegisterNetEvent('esx_euromillon_d4xn:darBoletos_d4xn')
 AddEventHandler('esx_euromillon_d4xn:darBoletos_d4xn', function()
     local _source = source
     local xPlayer = ESX.GetPlayerFromId(_source)
