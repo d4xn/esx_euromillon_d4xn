@@ -23,7 +23,7 @@ Citizen.CreateThread(function()
             _sleep = 0
             DrawText3D(219.80, -859.85, 31.25, 'Pulsa ~r~[E]~w~ para comprar un boleto por ~g~12$~s~')
             if IsControlJustPressed(0, 38) then 
-                TriggerServerEvent('esx_euromillon_d4xn:darBoletos')
+                TriggerServerEvent('esx_euromillon_d4xn:darBoletos_d4xn')
             end
         end
         Citizen.Wait(_sleep)
