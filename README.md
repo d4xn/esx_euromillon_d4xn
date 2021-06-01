@@ -2,11 +2,9 @@
 
 *A simple lottery FiveM script.*
 
-**Requeriments: esx_basicneeds & mythic_notify**
+**Requeriments: ESX & mythic_notify**
 
 **IMPORT EUROMILLON.SQL INTO YOUR DB**
-
-**Add this to esx_basicneeds/server/main.lua:**
 
 **If you speak other language change the notifications, and if you want change the percentages too**
 
