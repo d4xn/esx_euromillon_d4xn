@@ -21,7 +21,6 @@ AddEventHandler('esx_euromillon_d4xn:darBoletos_d4xn', function()
 end)
 
 ESX.RegisterUsableItem('boleto_euromillon', function(source)
-    math.randomseed(os.time())
     local winner = math.random(0, 100000)
     local number = math.random(0, 100000)
     local winner2 = math.random(0, 1000)
